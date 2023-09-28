@@ -51,16 +51,18 @@ elementBox.push({x: 49 , y: 350 });
  elementBox.push({x: 951 , y: 516 });
 
 let locX, locY;
-
+let main;
 function preload(){
   home=loadImage('assets/home.png');
+  
   // for (let i=1; i<46; i++){
   //   elements[i]=loadImage('assets/lightboxes/'+i+'.png');
   // }
 }
 
 function setup() {
-  createCanvas(1080, 780);
+  main=createCanvas(1080, 780);
+  main.mouseClicked(drawLightBox);
   lightbox=createGraphics(1080, 780);
   background(255);
   image(home, 0, 0, 1080, 780);
@@ -70,27 +72,27 @@ function setup() {
  
 }
 
-function mouseClicked(){
-  //console.log("clicked")
-  console.log("elementBox.push({x:", locX, ", y:", locY, "});" );
-  for (let i=0; i<elementBox.length; i++){
-    let x=elementBox[i].x;
-    let y=elementBox[i].y;
-    if (locX>x && locY>y && locX<x+82 && locY<y+82 && flag==0){
-      flag=1;
+// function mouseClicked(){
+//   //console.log("clicked")
+//   console.log("elementBox.push({x:", locX, ", y:", locY, "});" );
+//   for (let i=0; i<elementBox.length; i++){
+//     let x=elementBox[i].x;
+//     let y=elementBox[i].y;
+//     if (locX>x && locY>y && locX<x+82 && locY<y+82 && flag==0){
+//       flag=1;
       
-      drawLightBox(i);
-    } 
+//       drawLightBox(i);
+//     } 
     
-  }
+//   }
 
 
-  if (flag=1 && locX>80 && locY>100 && locX<=127 && locY<=143){
-    flag=0;
-    clearLightBox();
-  }
+//   if (flag=1 && locX>80 && locY>100 && locX<=127 && locY<=143){
+//     flag=0;
+//     clearLightBox();
+//   }
  
-}
+// }
 
 function draw() {
   locX=mouseX;
