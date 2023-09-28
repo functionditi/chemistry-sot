@@ -137,12 +137,18 @@ function checkLocation(){
       drawLightBox(i);
     } 
     
+    
   }
 
 
   if (flag=1 && locX>80 && locY>100 && locX<=127 && locY<=143){
     flag=0;
     clearLightBox();
+  }
+
+  if (locX>1030 && locY>770){
+    let fs = fullscreen();
+    fullscreen(!fs);
   }
  
 }
@@ -151,7 +157,7 @@ function draw() {
  
   locX=mouseX;
   locY=mouseY;
-
+  console.log(locX, locY)
   
 }
 
