@@ -1,3 +1,5 @@
+//this is 2x version
+
 let home;
 let lightbox;
 let elements=[];
