@@ -5,6 +5,8 @@ let elementBox=[];
 let flag=0;
 
 elementBox.push({x: 46, y: 185});
+elementBox.push({x: 867 , y: 184 });
+elementBox.push({x: 949 , y: 184 });
 
 let locX, locY;
 
@@ -27,12 +29,14 @@ function setup() {
 }
 
 function mouseClicked(){
+  console.log("clicked")
+  console.log("elementBox.push({x:", locX, ", y:", locY, "});" );
   for (let i=0; i<elementBox.length; i++){
     let x=elementBox[i].x;
     let y=elementBox[i].y;
     if (locX>x && locY>y && locX<=x+82 && locY<=y+82 && flag==0){
       flag=1;
-      console.log("clicked")
+      
       drawLightBox(i);
     } 
     
@@ -50,7 +54,7 @@ function draw() {
   locX=mouseX;
   locY=mouseY;
 
-  console.log(locX, locY) //46, 184, 
+  
 }
 
 function drawLightBox(index){
