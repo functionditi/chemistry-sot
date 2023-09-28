@@ -91,13 +91,13 @@ elements[34]=loadImage('assets/lightboxes/'+34+'.png');
 elements[35]=loadImage('assets/lightboxes/'+35+'.png'); 
 elements[36]=loadImage('assets/lightboxes/'+36+'.png'); 
 elements[37]=loadImage('assets/lightboxes/'+37+'.png'); 
-// elements[38]=loadImage('assets/lightboxes/'+38+'.png'); 
-// elements[39]=loadImage('assets/lightboxes/'+39+'.png'); 
-// elements[40]=loadImage('assets/lightboxes/'+40+'.png'); 
-// elements[41]=loadImage('assets/lightboxes/'+41+'.png'); 
-// elements[42]=loadImage('assets/lightboxes/'+42+'.png'); 
-// elements[43]=loadImage('assets/lightboxes/'+43+'.png'); 
-// elements[44]=loadImage('assets/lightboxes/'+44+'.png');
+elements[38]=loadImage('assets/lightboxes/'+38+'.png'); 
+elements[39]=loadImage('assets/lightboxes/'+39+'.png'); 
+elements[40]=loadImage('assets/lightboxes/'+40+'.png'); 
+elements[41]=loadImage('assets/lightboxes/'+41+'.png'); 
+elements[42]=loadImage('assets/lightboxes/'+42+'.png'); 
+elements[43]=loadImage('assets/lightboxes/'+43+'.png'); 
+elements[44]=loadImage('assets/lightboxes/'+44+'.png');
 
 
   // for (let i=1; i<46; i++){
