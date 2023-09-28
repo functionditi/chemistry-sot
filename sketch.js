@@ -54,7 +54,6 @@ let locX, locY;
 
 function preload(){
   home=loadImage('assets/home.png');
-  elements[1]=loadImage('assets/lightboxes/'+1+'.png');
   // for (let i=1; i<46; i++){
   //   elements[i]=loadImage('assets/lightboxes/'+i+'.png');
   // }
@@ -71,7 +70,7 @@ function setup() {
  
 }
 
-function touchStarted(){
+function mouseClicked(){
   //console.log("clicked")
   console.log("elementBox.push({x:", locX, ", y:", locY, "});" );
   for (let i=0; i<elementBox.length; i++){
@@ -102,7 +101,7 @@ function draw() {
 
 function drawLightBox(index){
   lightbox.background(0, 130);
-  lightbox.image(elements[index+1], 78, 96.5, 921, 546);
+  //lightbox.image(elements[index+1], 78, 96.5, 921, 546);
   image(lightbox, 0, 0);
 
 }
