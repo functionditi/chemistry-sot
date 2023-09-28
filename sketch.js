@@ -54,8 +54,52 @@ let locX, locY;
 let main;
 function preload(){
   home=loadImage('assets/home.png');
-  elements[1]=loadImage('assets/lightboxes/'+1+'.png');
-  
+  elements[1]=loadImage('assets/lightboxes/'+1+'.png'); 
+elements[2]=loadImage('assets/lightboxes/'+2+'.png'); 
+elements[3]=loadImage('assets/lightboxes/'+3+'.png'); 
+elements[4]=loadImage('assets/lightboxes/'+4+'.png'); 
+elements[5]=loadImage('assets/lightboxes/'+5+'.png'); 
+elements[6]=loadImage('assets/lightboxes/'+6+'.png'); 
+elements[7]=loadImage('assets/lightboxes/'+7+'.png'); 
+elements[8]=loadImage('assets/lightboxes/'+8+'.png'); 
+elements[9]=loadImage('assets/lightboxes/'+9+'.png'); 
+elements[10]=loadImage('assets/lightboxes/'+10+'.png'); 
+elements[11]=loadImage('assets/lightboxes/'+11+'.png'); 
+elements[12]=loadImage('assets/lightboxes/'+12+'.png'); 
+elements[13]=loadImage('assets/lightboxes/'+13+'.png'); 
+elements[14]=loadImage('assets/lightboxes/'+14+'.png'); 
+elements[15]=loadImage('assets/lightboxes/'+15+'.png'); 
+elements[16]=loadImage('assets/lightboxes/'+16+'.png'); 
+elements[17]=loadImage('assets/lightboxes/'+17+'.png'); 
+elements[18]=loadImage('assets/lightboxes/'+18+'.png'); 
+elements[19]=loadImage('assets/lightboxes/'+19+'.png'); 
+elements[20]=loadImage('assets/lightboxes/'+20+'.png'); 
+elements[21]=loadImage('assets/lightboxes/'+21+'.png'); 
+elements[22]=loadImage('assets/lightboxes/'+22+'.png'); 
+elements[23]=loadImage('assets/lightboxes/'+23+'.png'); 
+elements[24]=loadImage('assets/lightboxes/'+24+'.png'); 
+elements[25]=loadImage('assets/lightboxes/'+25+'.png'); 
+elements[26]=loadImage('assets/lightboxes/'+26+'.png'); 
+elements[27]=loadImage('assets/lightboxes/'+27+'.png'); 
+elements[28]=loadImage('assets/lightboxes/'+28+'.png'); 
+elements[29]=loadImage('assets/lightboxes/'+29+'.png'); 
+elements[30]=loadImage('assets/lightboxes/'+30+'.png'); 
+elements[31]=loadImage('assets/lightboxes/'+31+'.png'); 
+elements[32]=loadImage('assets/lightboxes/'+32+'.png'); 
+elements[33]=loadImage('assets/lightboxes/'+33+'.png'); 
+elements[34]=loadImage('assets/lightboxes/'+34+'.png'); 
+elements[35]=loadImage('assets/lightboxes/'+35+'.png'); 
+elements[36]=loadImage('assets/lightboxes/'+36+'.png'); 
+elements[37]=loadImage('assets/lightboxes/'+37+'.png'); 
+elements[38]=loadImage('assets/lightboxes/'+38+'.png'); 
+elements[39]=loadImage('assets/lightboxes/'+39+'.png'); 
+elements[40]=loadImage('assets/lightboxes/'+40+'.png'); 
+elements[41]=loadImage('assets/lightboxes/'+41+'.png'); 
+elements[42]=loadImage('assets/lightboxes/'+42+'.png'); 
+elements[43]=loadImage('assets/lightboxes/'+43+'.png'); 
+elements[44]=loadImage('assets/lightboxes/'+44+'.png');
+
+
   // for (let i=1; i<46; i++){
   //   elements[i]=loadImage('assets/lightboxes/'+i+'.png');
   // }
