@@ -98,6 +98,7 @@ elements[41]=loadImage('assets/lightboxes/'+41+'.png');
 elements[42]=loadImage('assets/lightboxes/'+42+'.png'); 
 elements[43]=loadImage('assets/lightboxes/'+43+'.png'); 
 elements[44]=loadImage('assets/lightboxes/'+44+'.png');
+elements[45]=loadImage('assets/lightboxes/'+45+'.png');
 
 
   // for (let i=1; i<46; i++){
