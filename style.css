@@ -1,9 +1,12 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  
+  
 }
 canvas {
   display: block;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  /* width: 80% */
     /* This centers our sketch horizontally. */
     justify-content: center;
 
